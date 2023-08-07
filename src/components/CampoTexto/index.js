@@ -4,7 +4,7 @@ import "./CampoTexto.css"
 const CampoTexto = (props) => {
 
     const getValor = (e) => {
-        props.actualizarEquipo(e.target.value);
+        props.actualizarValor(e.target.value);
     }
 
     return <div className="campo-texto">
